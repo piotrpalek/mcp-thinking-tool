@@ -2,6 +2,10 @@
 
 This is an implementation of the "Think Tool" described in Anthropic's engineering blog post as an MCP server. The Think Tool is a simple but effective prompt engineering technique that helps Claude break down complex problems and enhance its reasoning capabilities.
 
+<a href="https://glama.ai/mcp/servers/@piotrpalek/mcp-thinking-tool">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@piotrpalek/mcp-thinking-tool/badge" alt="Think Tool MCP server" />
+</a>
+
 ## How it Works
 
 The Think Tool is incredibly simple - it provides a no-op tool that does nothing except echo back the input. The magic is in how it allows Claude to:
